@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback styles agar tailwind load na ho */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a !important;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#root {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+}
